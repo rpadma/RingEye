@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <include layout="@layout/header"
+        />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@id/header"
+    >
+
+
+
+    <TableLayout android:id="@+id/TableLayout01"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+
+
+
+        >
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/jkhk"
+                android:text="@string/bteye"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#ff6505"
+                android:textStyle="bold"
+                android:textSize="14px"
+
+
+
+                />
+
+        </TableRow>
+
+        <TableRow
+
+             android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:id="@+id/bt2"
+                    android:text="@string/bteye1"
+                    android:textColor="#ff6505"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="14px"
+                    />
+            </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bteye2"
+                android:id="@+id/textView4"
+                android:textColor="#ff6505"
+                android:textStyle="bold"
+                android:textSize="14px"
+                />
+        </TableRow>
+
+
+        <TableRow    android:id="@+id/TableRow0111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40px">
+            >
+
+            <TextView
+                android:layout_width="200px"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="pk"
+                android:id="@+id/textView"
+                android:textSize="15px"
+                android:textColor="#ff6505"
+                />
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="15px">
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             android:id="@+id/progressBar2"
+                android:layout_gravity="left"
+                android:minHeight="25dp"
+                android:minWidth="250dp"
+                android:max="100"
+                android:layout_column="0"
+                android:indeterminate="false"
+                android:progressDrawable="@layout/orangeprogress"
+
+
+                 />
+        </TableRow>
+
+        <TableRow    android:id="@+id/TableRow01121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20px"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sbtexllklklklk"
+                android:id="@+id/textView2"
+                android:textSize="15px"
+                android:textColor="#ff6505"
+                android:layout_centerVertical="true"
+            />
+
+            </TableRow>
+        <TableRow android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15px"
+        >
+
+
+
+            <SeekBar
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/seekBar2"
+                android:minHeight="25dp"
+                android:minWidth="250dp"
+                android:max="100"
+                android:layout_x="16dp"
+                android:layout_y="3dp"
+                android:indeterminate="false"
+
+                android:layout_gravity="left"
+android:progressDrawable="@layout/orangeprogress"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow android:id="@+id/TableRow03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Save  "
+        android:textStyle="bold"
+        android:textSize="15px"
+        android:id="@+id/button"
+        android:background="@layout/buttoncolor"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/TableLayout01"
+       android:layout_marginLeft="100px"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Stop  "
+        android:textStyle="bold"
+        android:textSize="15px"
+        android:id="@+id/button2"
+        android:textColor="#ffffff"
+        android:background="@layout/buttoncolor"
+        android:layout_below="@+id/TableLayout01"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="42dp"
+
+ />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Battery Eye  "
+        android:textColor="#ff6505"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/textViewtitle"
+        android:paddingTop="5px"
+        android:paddingBottom="15px"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button" />
+
+    <View
+        android:id="@+id/view1bat"
+        android:layout_marginTop="15px"
+        android:layout_marginBottom="6px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:background="#ff6505"
+        android:layout_height="2dip"
+        android:layout_width="fill_parent"
+        android:layout_alignBottom="@+id/textViewtitle"
+
+
+        />
+
+</RelativeLayout>
+
+
+
+</RelativeLayout>
+    </ScrollView>

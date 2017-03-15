@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thk2"
+   
+    
+    >
+    <LinearLayout
+  
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+   android:layout_marginLeft="6px"
+       android:layout_marginRight="6px"
+  >
+        <include layout="@layout/header" />
+  <TextView android:text="Instructions"
+       android:id="@+id/tView121"
+      android:textColor="#ffffff"
+      android:textStyle="bold"
+      android:textSize="20px"
+      android:layout_gravity="center"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6px"
+      android:layout_marginBottom="15px"
+       ></TextView>
+    
+   
+     
+      <TextView android:text="@string/s1" 
+       android:id="@+id/tView1" 
+       android:textStyle="bold"
+       android:textSize="15px"
+          android:textColor="#ffffff"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content" 
+          android:layout_marginLeft="10px"
+       android:layout_marginRight="8px"></TextView>
+       <TextView android:text="@string/howtotext1" 
+       android:id="@+id/tView2"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+           android:textColor="#ffffff"
+        android:layout_marginLeft="10px"
+       android:layout_marginRight="8px"></TextView>
+       <View
+         android:layout_marginTop="6px"
+        android:layout_marginBottom="6px"  
+         android:layout_marginLeft="10px"
+       android:layout_marginRight="10px" 
+        android:background="#C2DFFF"
+        android:layout_height="1dip"
+        android:layout_width="fill_parent" 
+       
+        />
+       
+       
+      <TextView android:text="@string/s3i" 
+       android:id="@+id/tView123"
+       android:textStyle="bold"
+       android:textSize="15px"
+          android:textColor="#ffffff"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10px"
+       android:layout_marginRight="10px"></TextView>
+      <TextView android:text="@string/s3id" 
+       android:id="@+id/tView12"
+          android:textColor="#ffffff"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content" 
+        android:layout_marginLeft="10px"
+       android:layout_marginRight="8px"></TextView>
+      
+       
+             <Button android:layout_width="fill_parent"
+      android:id="@+id/startb" android:text="@string/app_name1"
+android:textColor="#FFFFFF"      android:layout_marginTop="10px"
+       android:layout_marginBottom="10px"
+      android:layout_height="50px"
+                 android:textSize="15px"
+                 android:textStyle="bold"
+                 android:background="@layout/buttoncolor1"
+                 ></Button>
+        <Button android:layout_width="fill_parent"
+            android:id="@+id/startb1" android:text="@string/BatteryEye"
+            android:layout_marginTop="10px"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15px"
+
+            android:layout_marginBottom="10px"
+            android:layout_height="50px"
+            android:background="@layout/buttoncolor1"
+            ></Button>
+        <Button android:layout_width="fill_parent"
+            android:id="@+id/startb2" android:text="@string/Aboutus"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="10px"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15px"
+            android:background="@layout/buttoncolor1"
+            android:layout_height="50px"></Button>
+    </LinearLayout>
+</ScrollView>

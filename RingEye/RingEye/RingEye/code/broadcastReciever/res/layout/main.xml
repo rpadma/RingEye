@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thk2"
+
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <include layout="@layout/header" />
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+        android:layout_below="@id/header"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<TableLayout android:id="@+id/TableLayout01" 
+android:background="@drawable/bc"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    android:layout_marginTop="70dp"
+    android:layout_marginLeft="10dp"
+
+
+
+    >
+
+
+
+
+
+    <TableRow android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="40px"
+        >
+        <TextView android:text="SwitchTo General"
+            android:id="@+id/pass"
+            android:textSize="14px"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText android:text=""
+            android:id="@+id/ring"
+
+            android:layout_width="150dip"
+            android:layout_height="wrap_content">
+        </EditText>
+    </TableRow>
+<TableRow android:id="@+id/TableRow01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+<TextView android:text="SwitchTo Silent"
+    android:layout_gravity="center"
+android:id="@+id/uname"
+    android:textColor="#ffffff"
+android:layout_width="wrap_content"
+    android:textSize="14px"
+android:layout_height="wrap_content">
+</TextView>
+<EditText android:text="" 
+android:id="@+id/silent" 
+android:layout_width="150dip"
+
+android:layout_height="wrap_content"
+>
+</EditText>
+</TableRow>
+
+<TableRow android:id="@+id/TableRow03" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+<TextView android:text="SwitchTo Vibrate" 
+android:id="@+id/vibr"
+    android:textColor="#ffffff"
+
+    android:textSize="14px"
+android:layout_width="150dip"
+android:layout_height="wrap_content"
+    android:layout_gravity="center">
+</TextView>
+<EditText android:text="" 
+android:id="@+id/vibrate" 
+android:layout_width="150dip"
+android:layout_height="wrap_content">
+</EditText>
+</TableRow>
+
+
+
+
+</TableLayout>
+
+    <Button android:text="Save"
+
+
+        android:id="@+id/Save"
+        android:textSize="15px"
+        android:textStyle="bold"
+
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TableLayout01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:textColor="#ffffff"
+        android:background="@layout/buttoncolor1"
+
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ring Mode Codes"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+android:paddingTop="15px"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10px"
+        />
+
+        <View
+            android:id="@+id/view1main"
+
+
+            android:background="#ffffff"
+            android:layout_height="2px"
+            android:layout_width="fill_parent"
+            android:layout_alignBottom="@+id/textView"
+
+
+            />
+        <TextView
+            android:id="@+id/topictop"
+            android:text="@string/topicmain"
+            android:textColor="#FFFFFF"
+android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14px"
+            android:layout_alignTop="@+id/view1main"
+            android:paddingTop="10px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+
+
+
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

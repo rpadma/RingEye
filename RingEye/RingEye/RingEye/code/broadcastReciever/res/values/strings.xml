@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="hello">Hello World, Mainactivity!</string>
+    <string name="s1">Ring Mode:</string>
+    <string name="s3i">Battery Eye:</string>
+    <string name="s3id">A siren is triggered when battery charge match with the pre-defined level(0-100%) you saved.Then you can unplug mobile to stop Siren</string>
+<string name="howtotext1"> Based on the code you have saved .you will be able to remotely change mode of your mobile by sending that particular code as SMS to your mobile </string>
+
+    <string name="app_name">RingEye </string>
+    <string name="app_name1">RingMode </string>
+
+<string name="BatteryEye">BatteryEye</string>
+    <string name="Aboutus">About Us</string >
+    <color name="t">#95dd69</color>
+
+    <string name="bteye"> Set the level you want and click Save .</string>
+    <string name="bteye1">To stop the Siren either click stop button or unplug your mobile from USB/Charger</string>
+<string name="bteye2">To turn off battery eye set level to Zero and save</string>
+    <string name="Aboutme">About Us</string>
+   <string name="AboutRingMode">Ring Mode is a basic utility which helps you remotely change the ringing mode of
+       your mobile from silent/vibrate to loud. You can do this by sending a code(Not Case-Sensitive) as an SMS to your mobile phone from any other mobile . </string>
+
+<string name="AboutBatteryEye">
+Battery Eye is a battery monitoring system. You can set a desired level between (0-100%).
+    A Siren is triggered when your battery reaches the desired level. This works when mobile is plugged in with USB/phone charger. </string>
+<string name="note">
+            If you find RingEye App useful, please do rate and comment as they are very valuable to us and help us improve our offerings.
+
+ </string >
+
+   <string name="Suggestion">
+       Compliments and bug pointers can be sent to ringmode.batteryeye@gmail.com. Thanks :)  </string>
+    <string name="bt1">jhjhjjjjjjjjjjjjj</string>
+
+    <string name="topicmain">Enter Codes for each Textbox and click on Save.
+        These codes you need to remember.</string>
+
+</resources>
+
